@@ -1,0 +1,91 @@
+.cardContainer{
+    height: 400px;
+    width: 100%;
+    max-width: 450px;
+    border: 10px solid #6C63FF;
+    border-radius: 5px;
+    position: relative;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cardContainer:hover{
+    box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75);
+}
+
+.cardProfileImageDiv{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 10px solid white;
+    z-index: 100;
+}
+
+.cardProfileImage{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.cardFooterDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+    position: relative;
+}
+
+.cardDescDiv{
+    flex: 4;
+    max-width: 360px;
+    width: 90%;
+}
+
+.cardInfoDiv{
+    text-align: center;
+    flex: 3;
+}
+
+.cardWaveImage{
+    position: absolute;
+    bottom: 0;
+}
+
+.testimonialName{
+    font-size: 25px;   
+    font-weight: 600;
+}
+
+.companyName{
+    color: #fca80a;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.socialIconDiv{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.socialIcons{
+    width: 30px;
+    height: 30px;
+}
+
+.quoteMark{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+}
+
